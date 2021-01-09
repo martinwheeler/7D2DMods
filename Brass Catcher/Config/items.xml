@@ -1,3 +1,12 @@
 <brassCatcherMod>
     <append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunMGT1AK47']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='Tags']/@value">,brassCatcher</append>
+    <append xpath="/items/item[@name='gunMGT3M60']/property[@name='Tags']/@value">,brassCatcher</append>
 </brassCatcherMod>
