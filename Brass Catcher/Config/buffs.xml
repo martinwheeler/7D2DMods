@@ -3,7 +3,7 @@
         <buff name="buffReclaimBrass" hidden="true" remove_on_death="true">
 			<stack_type value="replace"/>
 			<duration value="0.01"/>
-			<effect_group name="Give the player bullet casings back after firing">
+			<effect_group name="Give the player a bullet casing after firing their weapon">
 				<triggered_effect trigger="onSelfBuffStart" action="CreateItemSDX, Mods" item="resourceBulletCasing" count="1"/>
 			</effect_group>        
 		</buff>
