@@ -1,7 +1,11 @@
 <brassCatcherMod>
     <append xpath="/recipes">
-        <recipe name="modGunBrassCatcher" count="1" craft_area="workstationTailor" tags="learnable">
-			<ingredient name="resourceLeather" count="1"/>
+        <recipe name="modGunBrassCatcher" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceForgedSteel" count="10"/>
+            <ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceSpring" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceOil" count="4"/>
 			<ingredient name="resourceDuctTape" count="1"/>
 		</recipe>
     </append>
