@@ -1,0 +1,18 @@
+<brassCatcherMod>
+    <!-- Inject a new item modifier for the brass catcher -->
+    <append xpath="/item_modifiers">
+		<item_modifier name="modGunBrassCatcher" installable_tags="brassCatcher" blocked_tags="shotgun,laser,noMods" modifier_tags="brassCatcher" type="attachment" rarity="0.5">
+			<property name="CustomIcon" value="resourceBulletCasing" />
+			<!-- <property name="CustomIconTint" value="383838"/> -->
+			<property name="DescriptionKey" value="modGunBrassCatcherDesc"/>	
+			<property name="Stacknumber" value="1"/>
+			<effect_group tiered="false">
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="80"/>
+				<requirement name="RoundsInMagazine" operation="GTE" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffReclaimBrass"/>
+					<triggered_effect trigger="onSelfRangedBurstShot" action="AddBuff" target="self" buff="buffReclaimBrass"/>
+			</effect_group>
+			<property name="PickupJournalEntry" value="augmentGunsTip"/>
+		</item_modifier>
+    </append>
+</brassCatcherMod>

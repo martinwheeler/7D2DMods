@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Brass Catcher" />
+    <Description value="Catches your bullet casings after firing a weapon." />
+    <Author value="Martin" />
+    <Version value="0.0.1" compat="A19.3" />
+  </ModInfo>
+</xml>

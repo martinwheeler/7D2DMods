@@ -1,0 +1,3 @@
+<brassCatcherMod>
+    <append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='Tags']/@value">,brassCatcher</append>
+</brassCatcherMod>
